@@ -7,7 +7,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  background: #465b48;
+  background-image: url("../img/Espacio.jpg");
 }
 
 .contenedor {
@@ -37,6 +37,13 @@ header nav ul li a:hover {
   background: #000;
   color: #fff;
 }
+header nav ul div button {
+  border-radius: 3px;
+  color: #fff;
+  background: #161f26;
+  padding: 15px 20px;
+  float: right;
+}
 
 .main {
   width: 70%;
@@ -49,6 +56,9 @@ header nav ul li a:hover {
 .main .imagen img {
   width: 100%;
   vertical-align: top;
+}
+.main .imagen img:hover {
+  opacity: 0.9;
 }
 .main .posts {
   padding: 40px;
@@ -114,6 +124,43 @@ footer {
   footer {
     width: 100%;
   }
+}
+.dark-mode header {
+  background: #161f26;
+}
+.dark-mode nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  padding: 15px 20px;
+}
+.dark-mode nav ul li a:hover {
+  background: #161f26;
+  color: #ff8000;
+}
+.dark-mode nav ul div button {
+  border-radius: 3px;
+  color: #161f26;
+  background: #fff;
+  padding: 15px 20px;
+  float: right;
+}
+.dark-mode .main {
+  width: 70%;
+  float: left;
+  background: #161f26;
+}
+.dark-mode .main .posts {
+  padding: 40px;
+}
+.dark-mode .main article h2 {
+  margin-bottom: 20px;
+  color: #ff8000;
+}
+.dark-mode .main article p {
+  margin-bottom: 15px;
+  line-height: 27px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

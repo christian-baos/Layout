@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "_generales.sass",
+        "_header.sass",
+        "_principal.sass",
+        "_aside.sass",
+        "_footer.sass",
+        "_mediaqueries.sass"
+    ],
+    "names": [],
+    "mappings": "AAAA;EACI;EACA;EACA;;;AAEJ;EACI;EACA;EACA;;;AAEJ;EACI;EACA;EACA;EACA;;;ACdJ;EACI;;AAEI;EACI;EACA;;AACA;EACI;;AACA;EACI;EACA;EACA;EACA;;AACA;EACI;EACA;;;ACfxB;EACI;EACA;EACA;;AACA;EACI;;AACA;EACI;EACA;;AAER;EACI;;AAEI;EACI;EACA;;AACJ;EACI;EACA;;;AClBhB;EACI;EACA;EACA;EACA;EACA;;AACA;EACI;;AACA;EACI;EACA;EACA;;AACJ;EACI;;AACA;EACI;EACA;;AACA;EACI;EACA;;AACA;EACI;;AAChB;EACI;;;ACvBZ;EACI;EACA;EACA;EACA;EACA;EACA;;;ACNJ;EACI;IACI;;EACJ;IACI;;EACJ;IACI",
+    "file": "main.css"
+}
